@@ -5,7 +5,7 @@ namespace RestaurantMenu
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public double Price { get; set; }
+        public string Price { get; set; }
         public string Category { get; set; }
         private static int NextId = 1;
         private readonly int id;
